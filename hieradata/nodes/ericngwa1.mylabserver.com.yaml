@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'ericngwa1.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/ericngwa1'
+  },
+  'ericngwa2.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/ericngwa1b'
+   }
+}
