@@ -36,5 +36,5 @@ mod 'profile',
 
 
 mod 'nginx'
-    :git  =>  'https://github.com/ecndb2/puppet-nginx.git'
+    :git  =>  'https://github.com/ecndb2/puppet-nginx.git',
     :ref  =>  'master'
